@@ -1,0 +1,18 @@
+const express =
+  require("express");
+
+const router =
+  express.Router();
+
+const {
+  createMatch,
+} = require(
+  "../controllers/match.controller"
+);
+
+router.post(
+  "/",
+  createMatch
+);
+
+module.exports = router;
