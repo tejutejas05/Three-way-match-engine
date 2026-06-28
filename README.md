@@ -53,7 +53,6 @@ PDF Upload → Gemini AI Extraction → MongoDB Storage → Matching Engine → 
 - Quantity validation logic
 - Match percentage calculation
 - REST API architecture
-- Docker support
 - Postman testing
 
 ---
@@ -67,8 +66,6 @@ PDF Upload → Gemini AI Extraction → MongoDB Storage → Matching Engine → 
 - middleware
 - utils
 - uploads
-- Dockerfile
-- docker-compose.yml
 - server.js
 
 ---
@@ -118,7 +115,6 @@ Request Body:
 - Fuzzy matching for inconsistent data
 - Backend-heavy business logic implementation
 - Production-style REST API design
-- Dockerized deployment
 
 ---
 
@@ -150,9 +146,6 @@ Request Body:
 npm install  
 npm start  
 
-OR
-
-docker-compose up --build
 
 ---
 
@@ -167,5 +160,4 @@ Screenshots are included in the repository.
 
 Completed  
 Tested  
-Dockerized  
 Ready for submission
