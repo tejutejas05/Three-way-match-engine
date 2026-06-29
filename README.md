@@ -160,4 +160,3 @@ Screenshots are included in the repository.
 
 Completed  
 Tested  
-Ready for submission
